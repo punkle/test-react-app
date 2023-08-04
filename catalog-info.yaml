@@ -1,0 +1,13 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-react-app
+  labels:
+    label1: asdf1
+  annotations:
+    github.com/project-slug: punkle/test-react-app
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:default/punkle
