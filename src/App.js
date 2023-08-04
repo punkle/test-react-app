@@ -2,9 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  console.log('deplication');
-  console.log('deplication');
-  console.log('no semicolon')
+  const queryParams = new URLSearchParams(document.location.search);
+  const redirectUrl = queryParams.get("url");
+  document.location = redirectUrl;
 
   return (
     <div className="App">
