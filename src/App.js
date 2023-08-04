@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   console.log('deplication');
   console.log('deplication');
-  console.log('no semi colon')
+  console.log('no semicolon')
 
   return (
     <div className="App">
