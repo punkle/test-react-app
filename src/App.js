@@ -2,7 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  console.log('App');
+  console.log('deplication');
+  console.log('deplication');
+  console.log('no semi colon')
+
   return (
     <div className="App">
       <header className="App-header">
