@@ -2,10 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const queryParams = new URLSearchParams(document.location.search);
-  const redirectUrl = queryParams.get("url");
-  document.location = redirectUrl;
-
   return (
     <div className="App">
       <header className="App-header">
